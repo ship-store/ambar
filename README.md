@@ -91,6 +91,7 @@ Note that some of the components require compilation or other build steps be per
 $ npm install
 $ npm run compile
 ```
+https://github.com/RD17/ambar/issues/108
 
 ## FAQ
 ### Is it open-source?
