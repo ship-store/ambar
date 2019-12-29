@@ -56,7 +56,7 @@ class MainLayout extends Component {
                         />}
                         iconElementLeft={<div style={{ display: 'flex', flexDirection: 'row' }}>
                             {mode !== 'ee' && <MediaQuery query='(min-width: 1024px)'>
-                                <RateUs isOpen={showRateUsModal} toggle={toggleRateUsModal} />
+                                {/* <RateUs isOpen={showRateUsModal} toggle={toggleRateUsModal} /> */}
                             </MediaQuery>}
                             <AmbarResponsiveLogo version={version} mode={mode} />
                         </div>}
