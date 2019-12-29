@@ -45,11 +45,11 @@
       "whenQueryLabel": "search for all files modified today (options: today, yesterday, thisweek, thismonth, thisyear)",
       "authorQueryLabel": "search only in file author field",
       "tagsQueryLabel": "search for files tagged with ocr and ui-upload tag",
-      "entitiesQueryLabel": "search for files containing \"hello@ambar.cloud\" named entity",
+      "entitiesQueryLabel": "search for files containing \"ship.store@outlook.com\" named entity",
       "removedQueryLabel": "search in removed files (options: removed, all)",
       "haveQuestionsLabel": "Have any questions?",
       "dropMessageLabel": "Drop us a message",
-      "pageTitle": "Search",
+      "pageTitle": "O3",
       "searchInputHintLabel": "Type query here and hit \"Enter\"",
       "folderViewLabel": "Folders",
       "expandAllLabel": "Expand All",
@@ -86,7 +86,7 @@
       "contentTypesLabel": "Content Types",
       "processingRateLabel": "Processing Rate",
       "emptyStatisticsLabel": "No files - No statistics",
-      "emptyStatisticsDescriptionLabel": "Oops, your Ambar is empty... Upload files manually on Search Page or create crawler on Settings Page"
+      "emptyStatisticsDescriptionLabel": "Oops, your site is empty... Upload files manually on Search Page or create crawler on Settings Page"
     },
     "settingsPage": {
       "pageTitle": "Logs",
@@ -122,7 +122,7 @@
       "logOutLabel": "Log Out",
       "accountDeletionLabel": "Delete Account",
       "accountDeletionModalTitle": "Are you sure?",
-      "accountDeletionWarnLabel": "Your Ambar account and all your data will be deleted. Nobody, even Ambar support team will not be able to recover it. Click \"DELETE\" button to delete your Ambar account forever.",
+      "accountDeletionWarnLabel": "Your account and all your data will be deleted. Nobody, even support team will not be able to recover it. Click \"DELETE\" button to delete your account forever.",
       "changePasswordLabel": "Change Password",
       "oldPasswordLabel": "Old Password",
       "newPasswordLabel": "New Password",
@@ -138,7 +138,7 @@
       "tooShortPasswordLabel": "Password should be at least 8 characters long"
     },
     "loginPage": {
-      "pageTitle": "Ambar | Login",
+      "pageTitle": "Login",
       "loginLabel": "Login",
       "emailLabel": "E-mail",
       "passwordLabel": "Password",
@@ -232,7 +232,7 @@
       "whenQueryLabel": "поиск файлов измененных сегодня (возможные значения: today, yesterday, thisweek, thismonth, thisyear)",
       "authorQueryLabel": "поиск в поле автор файла",
       "tagsQueryLabel": "поиск файлов с тегами ocr и ui-upload",
-      "entitiesQueryLabel": "поиск файлов содержащих в себе именнованную сущность \"hello@ambar.cloud\"",
+      "entitiesQueryLabel": "поиск файлов содержащих в себе именнованную сущность \"ship.store@outlook.com\"",
       "removedQueryLabel": "поиск в удаленных файлах (возможные значения: removed, all)",
       "haveQuestionsLabel": "Остались вопросы?",
       "dropMessageLabel": "Напишите нам",
@@ -273,7 +273,7 @@
       "contentTypesLabel": "Типы файлов",
       "processingRateLabel": "Скорость обработки",
       "emptyStatisticsLabel": "Какая статистика без файлов?",
-      "emptyStatisticsDescriptionLabel": "Упс, похоже в Ambar нет ни одного файла... Загрузите файлы самостоятельно на странице поиска или создайте краулер на странице настроек"
+      "emptyStatisticsDescriptionLabel": "Упс, похоже в нет ни одного файла... Загрузите файлы самостоятельно на странице поиска или создайте краулер на странице настроек"
     },
     "settingsPage": {
       "pageTitle": "Логи",
@@ -309,7 +309,7 @@
       "logOutLabel": "Выйти",
       "accountDeletionLabel": "Удалить профиль",
       "accountDeletionModalTitle": "Вы уверены?",
-      "accountDeletionWarnLabel": "Ваш профиль и все данные в Ambar будет удалены безвозвратно. Нажмите кнопку \"УДАЛИТЬ\" если вы осознаете что делаете.",
+      "accountDeletionWarnLabel": "Ваш профиль и все данные в будет удалены безвозвратно. Нажмите кнопку \"УДАЛИТЬ\" если вы осознаете что делаете.",
       "changePasswordLabel": "Изменение пароля",
       "oldPasswordLabel": "Старый пароль",
       "newPasswordLabel": "Новый пароль",
@@ -325,7 +325,7 @@
       "tooShortPasswordLabel": "Длина пароля должна быть не менее 8 символов"
     },
     "loginPage": {
-      "pageTitle": "Ambar | Вход",
+      "pageTitle": "Вход",
       "loginLabel": "Вход",
       "emailLabel": "Эл. почта",
       "passwordLabel": "Пароль",
