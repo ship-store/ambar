@@ -74,7 +74,7 @@ const HintCard = (props) => {
     </div>)
 
     const emailText = (<p>
-        {localization.searchPage.haveQuestionsLabel}&nbsp;<a className={classes.link} href='mailto:ship.store@outlook.com'>{localization.searchPage.dropMessageLabel}</a>
+        {localization.searchPage.haveQuestionsLabel}
     </p>)
 
     const textElement = (<div>
