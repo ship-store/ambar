@@ -12,20 +12,20 @@ const HintCard = (props) => {
                 *
                     </span> - {localization.searchPage.allFilesQueryLabel}
             </li>
-            <li><span className={classes.clickableSpan} onTouchTap={() => { performSearchByQuery('John Smith') }}>
-                John Smith
+            <li><span className={classes.clickableSpan} onTouchTap={() => { performSearchByQuery('Hydraulic Circuit') }}>
+                    Hydraulic Circuit
                     </span> - {localization.searchPage.simpleQueryLabel}
             </li>
-            <li><span className={classes.clickableSpan} onTouchTap={() => { performSearchByQuery('"John Smith"') }}>
-                "John Smith"
+            <li><span className={classes.clickableSpan} onTouchTap={() => { performSearchByQuery('"Hydraulic Circuit"') }}>
+                "Hydraulic Circuit"
                     </span> - {localization.searchPage.pharseQueryLabel}
                 </li>
-            <li><span className={classes.clickableSpan} onTouchTap={() => { performSearchByQuery('"John Smith"~10') }}>
-                "John Smith"~10
+            <li><span className={classes.clickableSpan} onTouchTap={() => { performSearchByQuery('"Hydraulic Circuit"~10') }}>
+                "Hydraulic Circuit"~10
                     </span> - {localization.searchPage.pharseQueryWithDistanceLabel}
                 </li>
-            <li><span className={classes.clickableSpan} onTouchTap={() => { performSearchByQuery('John~3') }}>
-                John~3
+            <li><span className={classes.clickableSpan} onTouchTap={() => { performSearchByQuery('Hydraulic~3') }}>
+                Hydraulic~3
                     </span> - {localization.searchPage.fuzzyQueryLabel}
                 </li>
             <li><span className={classes.clickableSpan} onTouchTap={() => { performSearchByQuery('filename:*.txt') }}>
@@ -42,7 +42,22 @@ const HintCard = (props) => {
                 </li>
             <li>
                 <span className={classes.clickableSpan} onTouchTap={() => { performSearchByQuery('author:*') }}>
-                    author:*
+                    manufacturer:*
+                </span> - {localization.searchPage.authorQueryLabel}
+            </li>
+            <li>
+                <span className={classes.clickableSpan} onTouchTap={() => { performSearchByQuery('brand:*') }}>
+                    brand:*
+                </span> - {localization.searchPage.authorQueryLabel}
+            </li>
+            <li>
+                <span className={classes.clickableSpan} onTouchTap={() => { performSearchByQuery('maker:*') }}>
+                    maker:*
+                </span> - {localization.searchPage.authorQueryLabel}
+            </li>
+            <li>
+                <span className={classes.clickableSpan} onTouchTap={() => { performSearchByQuery('model:*') }}>
+                    model:*
                 </span> - {localization.searchPage.authorQueryLabel}
             </li>
             <li>
@@ -59,7 +74,7 @@ const HintCard = (props) => {
     </div>)
 
     const emailText = (<p>
-        {localization.searchPage.haveQuestionsLabel}&nbsp;<a className={classes.link} href='mailto:hello@ambar.cloud'>{localization.searchPage.dropMessageLabel}</a>
+        {localization.searchPage.haveQuestionsLabel}&nbsp;<a className={classes.link} href='mailto:ship.store@outlook.com'>{localization.searchPage.dropMessageLabel}</a>
     </p>)
 
     const textElement = (<div>
